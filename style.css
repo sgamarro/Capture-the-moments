@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: rgb(243, 243, 243);
+}
+#logo{
+    height: 150px;
+    width: 350px;
+    
+}
+.Nombre{
+    text-align: center;
+    position: relative;
+    top:-40px;
+    right: -30px;
+}
+header{
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(243, 243, 243);
+    margin-left: 150px;
+    margin-top: 40px;
+}
+#nav{
+    position: relative;
+    top:-30px;
+}
+#nav a{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+}
+#nav ol{
+    text-align: center;
+    list-style: none;
+}
+#nav ol li{
+    line-height: 50px;
+}
+.contenido{
+    margin-left: 64px;
+    margin-right: 64px;
+    
+}
+.perfil{
+    height: 580px;
+    width: 600px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.description{
+position: absolute;
+font-size: 25px;
+text-align: center;
+top: 200px;
+left: 200px;
+width: 500px;
+    color: black;
+}
