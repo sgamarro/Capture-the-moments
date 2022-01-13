@@ -12,6 +12,7 @@ body{
     position: relative;
     top:-40px;
     right: -30px;
+    font-family: 'Luxurious Roman', cursive;
 }
 header{
     flex-direction: column;
@@ -30,6 +31,13 @@ header{
     text-align: center;
     font-size: 22px;
 }
+#nav a:hover{
+    border-bottom: 2px solid black;
+    transition: border-bottom 200ms;
+    
+}
+
+
 #nav ol{
     text-align: center;
     list-style: none;
@@ -56,5 +64,24 @@ text-align: center;
 top: 200px;
 left: 200px;
 width: 500px;
+    color: black;
+}
+.header-galeria{
+    width: 100%;
+}
+.logo-nav{
+    width: 350px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+.galeria-nav{
+    text-align: center;
+}
+.galeria-nav a{
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
     color: black;
 }
