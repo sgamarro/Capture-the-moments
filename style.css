@@ -85,3 +85,45 @@ width: 500px;
     font-size: 20px;
     color: black;
 }
+.content-mini-nav{
+  
+    text-align: center;
+}
+.content-mini-nav .tabs{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.content-mini-nav .tabs .tab a[data-switcher]{
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.content-mini-nav .tabs .tab.is-active a[data-switcher]{
+    background-color: black;
+    color: white;
+}
+.content-mini-nav .tabs .tab:hover a[data-switcher]{
+    background-color: black;
+    color: white;
+}
+main{
+    margin-top: -20px;
+    padding-left:100px;
+    padding-right:100px;
+}
+.pages{
+   background-color: black;
+   color: white;
+   border-radius: 8px;
+   box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.1);
+}
+
+.pages .page{
+    display: none;
+}
+.pages .page.is-active{
+    display: block;
+    padding:10px;
+}

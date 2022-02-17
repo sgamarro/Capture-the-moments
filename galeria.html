@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Capture the Moments</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="header-galeria">
         <img class="logo-nav" src="images/ALESSANDRO FIRMAS COLOR NEGRO-04.png" alt="logo">
@@ -17,9 +19,41 @@
         <a href="#">Clientes</a>
         <a href="#">Contacto</a>
     </div>
-    
-    
-    
-    
+    <nav class="content-mini-nav">
+        <ul class="tabs">
+            <li class="tab is-active">
+                <a data-switcher data-tab="1">Home</a>
+            </li>
+            <li class="tab">
+                <a data-switcher data-tab="2">About</a>
+            </li>
+            <li class="tab">
+                <a data-switcher data-tab="3">Service</a>
+            </li>
+            <li class="tab">
+                <a data-switcher data-tab="4">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="pages">
+            <div class="page is-active" data-page="1">
+                <h2>page1</h2>
+            </div>
+            <div class="page" data-page="2">
+                <h2>page2</h2>
+            </div>
+            <div class="page" data-page="3">
+                <h2>page3</h2>
+            </div>
+            <div class="page" data-page="4">
+                <h2>page4</h2>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="app.js"></script>
 </body>
+
 </html>
