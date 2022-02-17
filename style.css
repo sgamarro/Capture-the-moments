@@ -80,8 +80,8 @@ width: 500px;
 }
 .galeria-nav a{
     text-decoration: none;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
     font-size: 20px;
     color: black;
 }
@@ -126,4 +126,14 @@ main{
 .pages .page.is-active{
     display: block;
     padding:10px;
+}
+.imagenes{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 12px;
+}
+.galeria-img{
+    margin-top:20px;
+    margin-left: 40px;
 }
