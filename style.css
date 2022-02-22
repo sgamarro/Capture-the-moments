@@ -278,6 +278,10 @@ footer{
 
 }
 @media screen and (min-width:320px) and (max-width: 720px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
     #nav ol{
         display: none ;    
     }
@@ -310,8 +314,9 @@ footer{
         z-index: 10;
     }
     .perfil{
-        width: 400px;
-        margin: 0;
+        width: 500px;
+        position: absolute;
+        left: 0;
         z-index: -1;
     }
     header{
