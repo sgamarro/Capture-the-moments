@@ -6,7 +6,6 @@ body{
 #logo{
     height: 150px;
     width: 350px;
-    
 }
 .logo-blanco{
     display: none;
@@ -27,10 +26,6 @@ header{
     background-color: rgb(243, 243, 243);
     margin-left: 150px;
     margin-top: 40px;
-}
-#nav{
-    position: relative;
-    top:-30px;
 }
 #nav a{
     color: #000;
@@ -277,11 +272,7 @@ footer{
 
 
 }
-@media screen and (min-width:320px) and (max-width: 720px){
-    body{
-        margin: 0;
-        padding: 0;
-    }
+@media screen and (max-width: 480px){
     #nav ol{
         display: none ;    
     }
@@ -295,54 +286,52 @@ footer{
     #nav ol.show{
         display: block;
         background-color: rgba(0, 0, 0, 0.836);
-        position: absolute;
-        left: -145px;
-        top: -50px;
+        margin-left: -100px;
         float: left;
-        width: 150px;
-        height: 500px;
+        width: 60px;
+        height: 160px;
         padding: 116px;
         padding-top: 200px;
         padding-bottom: 240px;
     }
+    header{
+        width: 100px;
+        background-color: transparent;
+        margin-left: 10px;
+    }
     .hamburger{
         display: block;
-        position: absolute;
-        top: 20px;
-        left: -130px;
         font-size: 30px;
         z-index: 10;
     }
     .perfil{
-        width: 500px;
-        position: absolute;
-        left: 0;
+        width: 400px;
+        height: 648px;
         z-index: -1;
     }
-    header{
-        background-color: transparent;
-    }
+    
     .Nombre{
         display: none;
     }
     .logo-blanco{
-        width: 150px;
+        width: 250px;
+        height: 160px;
         display: block;
         position: absolute;
         bottom: 0;
         margin: 0%;
         background-color: rgba(0, 0, 0, 0.329);
-        padding-left: 15px;
-        padding-right: 218px;
-    }
+        padding-right: 45px;
+    } 
     .nombre-small{
         display: block;
         position: absolute;
+        font-family: 'Luxurious Roman', cursive;
         bottom: 25px;
         left: 30px;
         margin: 0%;
         text-shadow: 1px 5px 80px black;
-        color: rgb(224, 219, 219);
+        color: rgb(184, 179, 179);
         padding-left: 10px;
         
     }
