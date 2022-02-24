@@ -282,17 +282,20 @@ footer{
         border-bottom: 1px solid white;
         padding-left: 2px;
         padding-right: 2px;
+        
     } 
      #nav ol.show{
         display: block;
         background-color: rgba(0, 0, 0, 0.836);
-        margin-left: -100px;
+        margin-left: -20px;
+        margin-right: 0;
         float: left;
-        width: 60px;
+        margin-top: -90px;
+        width: 150px;
         height: 160px;
-        padding: 116px;
+        padding: 120px;
         padding-top: 200px;
-        padding-bottom: 240px;
+        padding-bottom: 450px;
     }
     header{
         width: 50px;
@@ -314,7 +317,7 @@ footer{
         display: none;
     }
     .logo-blanco{
-        width: 350px;
+        width: 345px;
         height: 160px;
         display: block;
         position: absolute;
@@ -323,13 +326,12 @@ footer{
         background-color: rgba(0, 0, 0, 0.329);
         padding-right: 45px;
         padding-bottom: 50px;
-        margin-bottom: 50px;
     }
     .nombre-small{
         display: block;
         position: absolute;
         font-family: 'Luxurious Roman', cursive;
-        bottom: 125px;
+        bottom: 50px;
         left: 30px;
         margin: 0%;
         text-shadow: 1px 5px 80px black;
