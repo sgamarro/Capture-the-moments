@@ -297,6 +297,7 @@ footer{
     header{
         width: 50px;
         margin-left: 20px;
+        background-color: transparent;
     }
     .hamburger{
         display: block;
@@ -305,7 +306,7 @@ footer{
     }
     .perfil{
         width: 399px;
-        height: 648px;
+        height: 550px;
         z-index: -1;
     }
     
@@ -313,7 +314,7 @@ footer{
         display: none;
     }
     .logo-blanco{
-        width: 250px;
+        width: 350px;
         height: 160px;
         display: block;
         position: absolute;
@@ -321,12 +322,14 @@ footer{
         margin: 0%;
         background-color: rgba(0, 0, 0, 0.329);
         padding-right: 45px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
     }
     .nombre-small{
         display: block;
         position: absolute;
         font-family: 'Luxurious Roman', cursive;
-        bottom: 25px;
+        bottom: 125px;
         left: 30px;
         margin: 0%;
         text-shadow: 1px 5px 80px black;
