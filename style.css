@@ -371,4 +371,46 @@ footer{
         align-items: center;
         flex-direction: column;
     }
+    .galeria-img{
+        margin-top:20px;
+        margin-left: 5px;
+    }
+    main{
+        margin-top: -20px;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .pages .page.is-active{
+        display: block;
+        padding:1px;
+    }
+    .galeria-img{
+        margin-top:30px;
+        margin-left: 35px;
+    }
+    .pages{
+        border-radius: 0%;
+    }
+    .content-mini-nav{
+        padding-left: 20px;
+        overflow-x: scroll;
+        text-align: center;
+    }
+    .content-mini-nav .tabs .tab a[data-switcher]{
+        display: block;
+        padding: 15px 30px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .contact-form{
+        width: 300px;
+      
+        margin-left: 5px;
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       
+        border-radius:12px ;
+    }
 }
