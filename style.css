@@ -55,6 +55,14 @@ header{
 font-size: 20px;
 display: none;
 }
+.hamburger-two{
+    background-color: transparent;
+    border: 0;
+    color: #000;
+    cursor: pointer;
+font-size: 20px;
+display: none;
+}
 .hamburger:focus{
     outline: none;
 }
@@ -344,7 +352,9 @@ footer{
         display: none;        
     }
     .header-all{
-        width: 380px;
+        width: 280px;
+        margin-left: 80px;
+      
       
     }
     .header-all img{
@@ -383,6 +393,36 @@ footer{
     .pages .page.is-active{
         display: block;
         padding:1px;
+    }
+    #navtwo-ol{
+        display: none;
+    }
+    #navtwo-ol a{
+        color: white;
+        font-size: 25px;
+        line-height: 100px;
+        border-bottom: white solid 5px;
+    }
+    #navtwo-ol.show{
+        display: flex;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.801);
+        flex-direction: column;
+        line-height: 35px;
+        z-index: 5;
+        top: 0;
+        padding: 117px;
+        padding-top: 220px;
+        padding-bottom: 250px;
+        
+    }
+    .hamburger-two{
+        display: block;
+        font-size: 25px;
+        position: absolute;
+        top: 50px;
+        left: 2px;
+        z-index: 10;
     }
     .galeria-img{
         margin-top:30px;
