@@ -292,11 +292,11 @@ footer{
         display: none ;    
     }
     #nav ol li a{
-        color: rgb(248, 249, 250);
-        font-size: 30px;
-        border-bottom: 1px solid white;
-        padding-left: 2px;
-        padding-right: 2px;
+        color: white;
+        font-size: 25px;
+        line-height: 100px;
+        padding-bottom: 40px;
+        border-bottom: white solid 5px;
         
     } 
      #nav ol.show{
@@ -421,8 +421,8 @@ footer{
         z-index: 5;
         top: 0;
         padding: 117px;
-        padding-top: 220px;
-        padding-bottom: 250px;
+        padding-top: 200px;
+        padding-bottom: 270px;
         
     }
     .hamburger-two{
